@@ -5,8 +5,8 @@ import shutil
 from copystatic import copy_files_recursive
 from contentgenerator import generate_pages
 
-if len(sys.argv) > 0:
-    basepath = sys.argv[0]
+if len(sys.argv) > 1:
+    basepath = sys.argv[1]
 else:
     basepath = "/"
 
